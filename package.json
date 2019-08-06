@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-chrome-ext",
+  "version": "1.0.0",
+  "description": "chrome extension for texting to WhatsApp without saving the number",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node ./manifest-creator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idanizi/whatsapp-chrome-ext.git"
+  },
+  "author": "Idan Izicovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idanizi/whatsapp-chrome-ext/issues"
+  },
+  "homepage": "https://github.com/idanizi/whatsapp-chrome-ext#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
