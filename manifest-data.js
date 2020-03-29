@@ -1,17 +1,27 @@
+const {
+  npm_package_version,
+  npm_package_name,
+  npm_package_description
+} = process.env;
+
 module.exports = {
   // Required
   "manifest_version": 2,
-  "name": "WhatsApp Chrome Extension",
-  "version": "0.6",
+  "name": npm_package_name,
+  "version": npm_package_version,
 
   // Recommended
   // "default_locale": "en",
-  "description": "A plain text description",
-  // "icons": { 'eg': '...' },
+  "description": npm_package_description,
+  "icons": {
+    16: './icons/icon16.png',
+    48: "./icons/icon48.png",
+    128: "./icons/icon128.png",
+  },
 
   // Pick one (or none)
   "browser_action": {
-    'default_icon': 'icon.png',
+    'default_icon': './icons/icon.png',
     "default_popup": "./src/popup/popup.html",
   },
   // "page_action": {'eg' : '...'},
@@ -21,7 +31,7 @@ module.exports = {
   "author": "Idan Izicovich",
   // "automation": "...",
   "background": {
-  // Recommended
+    // Recommended
     scripts: ["./src/events.js"],
     "persistent": false,
     //  Optional
