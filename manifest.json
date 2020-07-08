@@ -1,1 +1,26 @@
-{"manifest_version":2,"name":"whatsapp-chrome-ext","version":"0.9.0","description":"Chrome extension for texting to WhatsApp without saving the number, by Idan Izicovich © 2019","icons":{"16":"./icons/icon16.png","48":"./icons/icon48.png","128":"./icons/icon128.png"},"browser_action":{"default_icon":"./icons/icon.png","default_popup":"./src/popup/popup.html"},"author":"Idan Izicovich","background":{"scripts":["./src/events.js"],"persistent":false},"permissions":["contextMenus","storage"]}
+{
+    "manifest_version": 2,
+    "name": "whatsapp-chrome-ext",
+    "version": "1.0.0",
+    "description": "Chrome extension for texting to WhatsApp without saving the number, by Idan Izicovich © 2019",
+    "icons": {
+        "16": "./icons/icon16.png",
+        "48": "./icons/icon48.png",
+        "128": "./icons/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": "./icons/icon.png",
+        "default_popup": "./src/popup/popup.html"
+    },
+    "author": "Idan Izicovich",
+    "background": {
+        "scripts": [
+            "./src/events.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "contextMenus",
+        "storage"
+    ]
+}
