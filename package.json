@@ -12,7 +12,7 @@
     "url": "git+https://github.com/idanizi/whatsapp-chrome-ext.git"
   },
   "author": "Idan Izicovich",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/idanizi/whatsapp-chrome-ext/issues"
   },
