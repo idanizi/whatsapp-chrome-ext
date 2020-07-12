@@ -4,6 +4,7 @@
   "description": "Chrome extension for texting to WhatsApp without saving the number, by Idan Izicovich © 2019",
   "main": "index.js",
   "scripts": {
+    "postversion": "git push --tags && git push --all",
     "prepare": "node ./manifest-creator.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
