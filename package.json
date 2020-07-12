@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-chrome-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chrome extension for texting to WhatsApp without saving the number, by Idan Izicovich © 2019",
   "main": "index.js",
   "scripts": {
