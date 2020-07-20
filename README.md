@@ -11,8 +11,10 @@ Chrome extension for texting to WhatsApp without saving the number
 
 ## Author
 
-Idan Izicovich <idanizi@gmail.com>
+Idan Izicovich - <idanizi@gmail.com>
 
 ## Description
+
+### See Demo's Video On YouTube
 
 [![Example Video on YouTube](http://img.youtube.com/vi/vwduHhEJof8/0.jpg)](http://www.youtube.com/watch?v=vwduHhEJof8)
